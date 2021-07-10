@@ -24,6 +24,7 @@ body {
 }
 #logo {
     text-align: center;
+
 }
 
 #searchbarcontainer {
@@ -36,6 +37,20 @@ body {
     padding-bottom: 10px;
     outline: 0px;
     width: 600px;
-    border-radius: 15px;
+    border-radius: 20px;
+    border: 2px solid #eeeeee;
 
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #f5f4f4;
 }
