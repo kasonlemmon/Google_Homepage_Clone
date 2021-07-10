@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+}
+#nav a {
+    margin-right: 20px;
+    margin-top: 15px;
+
+}
+#nav a.topimage {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+}
