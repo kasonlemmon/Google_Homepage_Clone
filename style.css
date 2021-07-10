@@ -17,3 +17,25 @@ body {
     background: red;
     border-radius: 50%;
 }
+
+#middle {
+    margin-top: 300px;
+
+}
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0px;
+    width: 600px;
+    border-radius: 15px;
+
+}
