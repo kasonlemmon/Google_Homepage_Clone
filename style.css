@@ -82,7 +82,8 @@ body {
     padding-left:20px;
     background-color: rgb(236, 236, 236);
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
+    height: 20px;
 }
 #footer a {
     padding: 15px;
@@ -92,6 +93,9 @@ body {
 }
 #footermiddle {
     margin-right: 175px;
+    display: flex;  
+    align-items: center;
+
 }
 .logo {
     height: 90px;
@@ -125,7 +129,10 @@ body {
 
 }
 .licon {
-    height: 40%;
+    height: 15px;
     text-align: center;
     padding: 5px;
+}
+#footer a.leaf {
+    padding: 0px;
 }
